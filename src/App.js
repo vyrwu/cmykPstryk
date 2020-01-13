@@ -9,6 +9,9 @@ import {Switch, Route} from 'react-router-dom'
 import './App.css'
 
 // generally copy of https://www.denisgostev.com/wedding-porfolio
+// TODO: Create markup for pages, style it a bit so it looks OK.
+// TODO: Get some stock images to put in the image carouselle.
+// TODO: tests (unit with jest and functional with react-test-renderer)
 
 const App = () => (
   <>
