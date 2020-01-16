@@ -1,0 +1,6 @@
+nav {
+    width: 15%;
+    top: 0px;
+    position: sticky;
+    align-self: flex-start;
+}

@@ -6,7 +6,7 @@ import ConnectCard from './connectCard/connectCard'
 
 const Home = ({language}) => (
   <>
-    <ImageCarousel showArrows/>
+    <ImageCarousel showArrows />
     <SimpleCard
       header={localeData[language].welcomeHeader()}
       paragraphs={localeData[language].welcomeParagraphs()}

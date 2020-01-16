@@ -7,10 +7,10 @@ import {testImage1, testImage2} from './images/images'
 const ImageCarousel = (props) => (
     <Carousel {...props} >
         <div>
-            <img src={testImage1} alt='Metin 2 Test 1' />
+            <img src={testImage2} alt='Test' />
         </div>
         <div>
-            <img src={testImage2} alt='Metin 2 Test 2' />
+            <img src={testImage1} alt='Test' />
         </div>
     </Carousel>
 )

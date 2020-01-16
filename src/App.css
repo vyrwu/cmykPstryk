@@ -1,0 +1,8 @@
+#root {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    margin: 16px 0px;
+}

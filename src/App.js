@@ -6,6 +6,7 @@ import Testimonies from './components/testimonies'
 import Portfolio from './components/portfolio'
 import NavigationBar from './components/navigationBar'
 import {Switch, Route} from 'react-router-dom'
+import './App.css'
 
 // generally copy of https://www.denisgostev.com/wedding-porfolio
 // TODO: Create markup for pages, style it a bit so it looks OK.
@@ -17,23 +18,25 @@ const App = () => {
   return (
     <>
       <NavigationBar />
-      <Switch>
-        <Route path='/' exact>
-          <Home language={language} />
-        </Route>
-        <Route path='/about' exact>
-          <About />
-        </Route>
-        <Route path='/testimonies' exact>
-          <Testimonies />
-        </Route>
-        <Route path='/portfolio' exact>
-          <Portfolio />
-        </Route>
-        <Route path='/contact' exact>
-          <Contact />
-        </Route>
-      </Switch>
+      <div className='content'>
+        <Switch>
+          <Route path='/' exact>
+            <Home language={language} />
+          </Route>
+          <Route path='/about' exact>
+            <About />
+          </Route>
+          <Route path='/testimonies' exact>
+            <Testimonies />
+          </Route>
+          <Route path='/portfolio' exact>
+            <Portfolio />
+          </Route>
+          <Route path='/contact' exact>
+            <Contact />
+          </Route>
+        </Switch>
+      </div>
     </>
   )
 }
